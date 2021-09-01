@@ -41,6 +41,7 @@ public class MemberDeleteServlet extends HttpServlet {
 			out.println("정상 delete 되었습니다.");
 		} else if (result == -1) {
 			out.println("오류 발생");
+			out.println("오류 발생2");
 		} else {
 			out.println("SQL문은 정상 실행됐으나 다른 이유로 인해 delete 되지 않았습니다.");
 		}
